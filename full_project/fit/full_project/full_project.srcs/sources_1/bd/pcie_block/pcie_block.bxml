@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="pcie_block" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1649628537"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1649628537"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1649628536"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1649016837"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\pcie_block_axi_pcie_0_0\pcie_block_axi_pcie_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_pcie_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\pcie_block_axi_interconnect_0_0\pcie_block_axi_interconnect_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\pcie_block_proc_sys_reset_0_0\pcie_block_proc_sys_reset_0_0.xci" Type="IP">
+        <Instance HierarchyPath="proc_sys_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\pcie_block.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+      </File>
+      <File Name="sim\pcie_block.vhd" Type="VHDL">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\pcie_block_axi_amm_bridge_0_0\pcie_block_axi_amm_bridge_0_0.xci" Type="IP">
+        <Instance HierarchyPath="axi_amm_bridge_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="pcie_block_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>
